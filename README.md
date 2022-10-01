@@ -29,9 +29,10 @@ If you liked working on this project, please share this project as much as you c
 # No-Code Contributions (Beginner Friendly)
 ## What can you do:
 ### There will be a [NCC.md](https://github.com/iamehran/hacktoberfest2022/blob/main/No-Code%20Contribution/NCC.md) file in No-Code Contribution folder.
-There will be a small template for your reference.
-All you have to do is
-#### 1. Write an article about anything you have learned so far or
+This will be a small template for your reference.
+All you have to do is:
+### 1. Create a file in the folder with specific name.
+#### 2. Write an article about anything you have learned so far or
 you think you know anything that could benefit others, you are welcome.
 ## How to make a Pull request:
 [![Video](http://img.youtube.com/vi/nkuYH40cjo4/0.jpg)](https://www.youtube.com/watch?v=nkuYH40cjo4 "Video")
