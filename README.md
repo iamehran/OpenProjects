@@ -32,6 +32,8 @@ If you liked working on this project, please share this project as much as you c
 All you have to do is
 #### 1. Write an article about anything you have learned so far or
 you think you know anything that could benefit others, you are welcome.
+## How to make a Pull request:
+[![Video](http://img.youtube.com/vi/nkuYH40cjo4/0.jpg)](https://www.youtube.com/watch?v=nkuYH40cjo4 "Video")
 
 ## Note:
 1. Don't Create Pull Request to update "readme.md" File.
