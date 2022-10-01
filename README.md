@@ -26,6 +26,13 @@ Once you have completed these steps, you are ready to start contributing by clic
 ### 4. Give this Project a Star:
 If you liked working on this project, please share this project as much as you can and star this project to help as many people in opensource as you can.
 
+# No-Code Contributions (Beginner Friendly)
+## What can you do:
+### There will be a [NCC.md](https://github.com/iamehran/hacktoberfest2022/blob/main/Contributing.md) file in No-Code Contribution folder. 
+All you have to do is
+#### 1. Write an article about anything you have learned so far or
+you think you know anything that could benefit others, you are welcome.
+
 ## Note:
 1. Don't Create Pull Request to update "readme.md" File.
 2. Upload or Create File in Specified Language Folder.
