@@ -6,7 +6,7 @@ This repository was created to help developers get started with Open Source duri
 ## Have you found some awesome repositories participating in Hacktoberfest? if not:
 
 Add your Code/Projects to specific folders created for you, if your desired folders are not found you can always create a folder.
-Solve Good Questions and put them in right Folder and also mention Questions at top of the code.
+Solve Good Questions if not projects and put them in right Folder and also mention Questions at top of the code.
 > NOTE: Check out `issues` labelled as `Hacktoberfest` and start contributing!
 ## Submitting a pull request
 
