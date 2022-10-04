@@ -1,0 +1,437 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.head{
+    background-color: rgb(177, 149, 130);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    height: 2vh
+}
+.nav{
+    
+    display: flex;
+    justify-content: left;
+    background-color: rgb(7, 7, 7);
+    padding: 25px;
+    color: white;
+    height: 3vh;
+}
+a{
+    color: white;
+    margin: 8px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    position: relative;
+    right: 20px;
+    bottom: 5px;
+    
+}
+.puma{
+    height: 50px;
+    width: 90px;
+    position: relative;
+    bottom: 10px;
+    right: 25px;
+    border: none solid black;
+    border-radius: 1000%;
+}
+a:hover{
+    text-decoration: underline rgb(177, 149, 130);
+}
+nav input[type="text"]{
+    text-align: center;
+    padding: 25px;
+    border: 1px solid gray;
+   margin: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    position: relative;
+    bottom: 22px;
+    left: 250px;
+    background-color: black;
+    color: gray;
+}
+input[type="text"]:hover,i:hover,#cart:hover{
+    cursor: pointer;
+}
+.orange{
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, #FB7BA2, #FCE043);
+    
+}
+h3{
+    font-family:Arial, Helvetica, sans-serif
+}
+.dark{
+    font-size: large;
+    margin: 8px;
+}
+.light{
+    font-size: small;
+    font-weight: 100;
+}
+.mid{
+    font-size: medium;
+    font-weight: 600;
+    margin: 6px;
+}
+.container{
+    background-color: rgb(253, 4, 4);
+    height: 55vh;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 3px black;
+    padding: 60px;
+}
+.main{
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+    right: 50px;
+}
+.m2{
+    display: block;
+    font-size: 150px;
+    position: relative;
+    top: 40px;
+    right: 50px;
+}
+.box1{
+    display: flex;
+    background-color: rgb(231, 121, 121);
+    height: 90px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 550;
+    border: 5px double white;
+    border-spacing:initial;
+    position: relative;
+    left: 430px;
+    bottom: 250px;
+    
+}
+.box2{
+    display: flex;
+    background-color: rgb(176, 11, 11);
+    height: 200px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 130px;
+    font-weight: 550;
+    position: relative;
+    left: 360px;
+    bottom: 160px;
+    
+}
+.container2{
+    display: flex;
+}
+.box3{
+    display: flex;
+    background-color: rgb(231, 121, 121);
+    height: 90px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 550;
+    border: 5px double white;
+    border-spacing:initial;
+    position: relative;
+    left: 1px;
+}
+
+.h2{
+    position: relative;
+    left: 810px;
+    bottom: 350px;
+    font-size: 50px;
+    text-shadow: none;
+}
+.h3{
+    position: relative;
+    left: 800px;
+    bottom: 350px;
+    font-size: 45px;
+    margin: 10px;
+    text-shadow: none;
+}
+
+.s1,.s2,.s3{
+    background-color: rgb(255, 255, 255);
+    height: 23px;
+    width: 145px;
+    margin: 5px;
+    text-shadow: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+    position: relative;
+    top: 60px;
+    left: 100px;
+}
+.s1:hover,.s2:hover,.s3:hover{
+    background-color: rgb(219, 210, 210);
+    cursor: pointer;
+}
+i{
+    color: white;
+    position: relative;
+    left: 30px;
+    margin: 5px;
+}
+
+#heart{
+    position: relative;
+    left: 250px;
+    top: 1%;
+}
+#user{
+    position: relative;
+    left: 275px;
+    top: 1%;
+}
+#cart{
+    color: white;
+    height: 22px;
+    width: 20px;
+    position: relative;
+    left: 300px;
+   top: 1%; 
+}
+.sec{
+    height: 55vh;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding: 60px;
+     text-align: center;
+     font-size: medium;
+    }
+    .budget{
+        margin: 10px;
+        font-weight: 600;
+    }
+    .small{
+        margin: 20px;
+        font-weight: 200;
+        font-size: medium;
+    }
+    .flex{
+        display: flex;
+        
+    }
+    .b1,.b2,.b3{
+        border: 1px solid gray;
+        margin: 5px;
+        padding: 15px;
+        position: relative;
+        left: 260px;
+        font-weight: 500;
+    }
+    .b1:hover,.b2:hover,.b3:hover{
+        border: 1px solid black;
+        cursor: pointer;
+    }
+    .b1{
+        color: orange;
+    }
+    .b2{
+        color:rgb(32, 32, 167);
+    }
+    .b3{
+        color: green;
+    }
+    .trend{
+        margin: 25px;
+        font-size: xx-large;
+        font-weight: 600;
+    }
+    .image{
+        display: flex;
+       position: relative;
+       right: 50px;
+        height: 300px;
+        width: 500px;
+        border: none;
+        padding: 5px;
+    }
+    #shoes1,#shoes2,#shoes3,#tshirt{
+        margin: 20px;
+    }
+    #shoes2{
+        width: 400px;
+    }
+    .name,.lname{
+        display: flex;
+    }
+    h3{
+        margin: 20px;
+        position: relative;
+        left: 60px;
+    }
+    #shoes1:hover,#shoes2:hover,#shoes3:hover,#tshirt:hover, #shoes4:hover,#shoes5:hover,#shoes6:hover,#shoes7:hover{
+        cursor: pointer;
+    }
+    .recc{
+        margin: 100px;
+    }
+    #shoes4,#shoes5,#shoes6,#shoes7{
+        margin: 25px;
+
+    }
+    .lname{
+        position: relative;
+        right: 1px;
+    }
+    .black{
+        background-color: black;
+        height: 65vh;
+        padding: 60px;
+        text-align: left;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         margin: 0;
+    }
+    .blackh,.blck,.button{
+        position: relative;
+        top: 140px;
+    }
+    .blackh{
+        font-size: 50px;
+    }
+    .blck{
+        position: relative;
+        right: 300px;
+      font-weight: 500;
+
+    }
+    .button{
+         background-color: rgb(255, 255, 255);
+          height: 23px;
+             width: 130px;
+               margin: 30px;
+               color: rgb(0, 0, 0);
+                padding: 10px;
+                text-align: center;
+                font-size: medium;
+                font-weight: 500;
+                position: relative;
+                left: 55px;
+             }
+             .button:hover{
+                background-color: lightgrey;
+                cursor: pointer;
+             }
+             .pu{
+                padding: 100px;
+                text-align: left;
+             }
+             .wel{
+                font-weight: 200;
+                position: relative;
+                bottom: 100px;
+                text-align: left;
+             }
+             .footer{
+                height: 500px;
+                background-color: rgb(34, 34, 34);
+                position: relative;
+                top: 1600px;
+             }
+             .support{
+                display: flex;
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+             #sup,#about,#more{
+                margin: 90px;
+                font-size: large;
+                font-weight: 500;
+            }
+            .link{
+                display: flex;
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                 
+            }
+            #contact,#return,#comp,#invest{
+                font-size: large;
+                font-weight: 300;
+                margin: 90px;
+                color: rgb(137, 135, 135);
+                position: relative;
+                bottom: 120px;
+                text-decoration: none;
+            }
+            #contact:hover,#return:hover,#comp:hover,#invest:hover#faq:hover,#privacy:hover,#cop:hover,#sus:hover{
+                color: white;
+            }
+            #faq,#privacy,#cop,#sus{
+                font-size: large;
+                font-weight: 300;
+                margin: 90px;
+                color: rgb(137, 135, 135);
+                position: relative;
+                bottom: 200px;
+                left: 5px;
+                text-decoration: none;
+            }
+            #pro,#tc,#press,#career{
+                font-size: large;
+                font-weight: 300;
+                margin: 90px;
+                color: rgb(137, 135, 135);
+                position: relative;
+                bottom: 190px;
+                right: 10px;
+                text-decoration: none;
+            }
+            #acc,#ret,#track{
+                font-size: large;
+                font-weight: 300;
+                margin: 90px;
+                color: rgb(137, 135, 135);
+                position: relative;
+                bottom: 180px;
+                
+                text-decoration: none;
+            }
+            #track{
+                bottom: 170px;
+            }
+            #pro{
+                position: relative;
+                right: 20px;
+            }
+            #privacy{
+                position: relative;
+                left: 25px;
+            }
+            #tc,#press{
+                position: relative;
+                right: 80px;
+            }
+            #press,#career{
+                position: relative;
+                right: 120px;
+            }
+            
+           #career,#sus{
+            position: relative;
+            right: 150px;
+           }
+           #pro:hover#tc:hover,#press:hover,#career:hover,#acc:hover,#ret:hover,#track:hover{
+            color: white;
+           }
