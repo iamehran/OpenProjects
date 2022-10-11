@@ -1,0 +1,56 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,#00aaff,#00ff6c);
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.calculator-grid > button{
+    cursor: pointer;
+    background-color:rgba(255,255,255,0.6);
+    outline: none;
+    border:1px solid white;
+    font-size: 2rem;
+} 
+.calculator-grid button:hover{
+  background-color: rgba(255,255,255,0.9);
+} 
+.calculator-grid{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows:minmax(120px,auto) repeat(5,100px);
+}
+.span-two{
+   grid-column: span 2;
+}
+.output{
+    grid-column:1/-1; /* it controls how many column it consumes as a individual grid item */ 
+    background-color: rgba(0,0,0,.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-right: 20px;    
+    font-size: 1.6rem;
+    overflow-x:hidden;
+
+}
+.previous-operand{
+  font-size: 1.5rem;
+  color: white;
+  opacity: .75;
+  font-weight: 400;  
+ 
+}
+.current-operand{
+    font-size: 2rem;
+    color: white;
+    font-size: 500;
+}
