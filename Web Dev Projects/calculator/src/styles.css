@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 6rem);
+  margin-top: 2rem;
+  justify-content: center;
+  grid-template-rows: minmax(7rem, 7rem) repeat(5, 6rem);
+  
+  
+  
+}
+
+.container__screen {
+  grid-column: span 4;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+
+  background-color: #b9a7ff;
+}
+
+.btn--span-two {
+  grid-column: span 2;
+  color: #b9a7ff;
+}
+
+.btn--span-threeTofour {
+  grid-column: 4/5;
+  background-color: #7c5efe;
+  color: white;
+}
+
+.btn--cirlcular-border {
+  border-radius: 80%;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  
+}
+
+.container > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  
+  
+  
+}
+
+.btn--white {
+  background-color: white;
+}
+
+.container > button:hover {
+  background-color: #b9a7ff;
+  color: white;
+}
+
+.container__screen--calculation , .container__screen--result{
+  font-size: 30px;
+}
+
+
+/* dark theme */
+
+.btn--dark{
+  background-color: #2f2a39;
+  color: #ffff;
+  
+}
