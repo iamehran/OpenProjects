@@ -1,0 +1,83 @@
+.fa-solid fa-ticket{
+    height: 40px;
+    width: 40px;
+}
+
+
+#SearchBox{
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+#navbarDropdown{
+    padding-right: 20px;
+    padding-left: 70px;
+
+}
+
+.imgitem{
+    height:400px;
+    width: 200px;
+    padding:0px;
+   border-radius: 10px;
+}
+
+#carouselExampleSlidesOnly{
+    padding: 10px 100px 10px 100px;
+    background-color: #0F3D3E;
+    
+}
+
+#Booking{
+   text-align: center;
+   font-weight: bold;
+   font-family: 'RocknRoll One', sans-serif;
+    
+}
+
+.all{
+    width: 10%;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  #footer{
+    text-align: center;
+    padding-top: 10px;
+    
+  }
+
+#Bookingrow{
+  padding: 10px;
+  margin-left: 80px;
+  margin-right: 20px;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  .last{
+    border: 10px;
+    height: 10px;
+    border-top: 5px solid rgba(222, 13, 55, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+  }
+
+
+  .Form{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    font-family: 'RocknRoll One', sans-serif;
+    line-height: 2;
+    
+  }
+
+
+
+
+
