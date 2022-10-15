@@ -1,0 +1,296 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+  color: #000;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 5px 0;
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* navbar */
+
+.navbar {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: -6px;
+  text-transform: uppercase;
+}
+
+.navbar-nav-left {
+  text-transform: uppercase;
+  flex: 1;
+  margin-left: 30px;
+}
+
+.navbar-nav-right img {
+  margin-right: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  background: none;
+  border: 1px #000 solid;
+  border-radius: 50px;
+  padding: 7px 16px;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* cart */
+.cart {
+  padding: 0px 30px;
+}
+
+.heading {
+  padding: 20px;
+  text-align: center;
+}
+
+.head {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.cartbox {
+  padding: 10px 100px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  padding: 30px;
+  width: 400px;
+  height: 400px;
+}
+
+.text-xl {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 50px;
+}
+
+.number {
+  padding: 100px 300px;
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-size: 40px;
+  color: red;
+}
+
+.subtotal {
+  display: flex;
+  align-items: center;
+  padding-left: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sub {
+  text-align: right;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.totalprice {
+  padding-left: 200px;
+  text-align: right;
+  color: red;
+  font-size: 40px;
+}
+
+.buttons {
+  padding-left: 65%;
+  padding-bottom: 20px;
+}
+
+.btn-light {
+  cursor: pointer;
+  display: inline-block;
+  background: none;
+  border: 3px #000 solid;
+  border-radius: 50px;
+  padding: 7px 16px;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-dark {
+  cursor: pointer;
+  display: inline-block;
+  background: #000;
+  border: 3px #000 solid;
+  border-radius: 50px;
+  padding: 7px 16px;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-dark a {
+  color: #fff;
+}
+
+.btn a {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* footer */
+
+.footer {
+  background: #000;
+  color: #fff;
+  width: 100%;
+  height: auto;
+  padding: 70px 200px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer1 {
+  padding: 0 10px;
+}
+.footer2 {
+  padding: 0 10px;
+}
+
+.footerh3 {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.icons {
+  padding-top: 20px;
+}
+
+/* media queries */
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 786px) {
+  .footer {
+    padding: 70px 100px;
+  }
+}
+
+@media (max-width: 376px) {
+  /* navbar */
+  .navbar-nav-left li {
+    display: none;
+  }
+
+  /* footer */
+  .footer {
+    padding: 40px 40px;
+  }
+
+  .footer-container {
+    display: block;
+  }
+
+  .footer1 {
+    padding: 0px;
+  }
+
+  .footerh3 {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+}
