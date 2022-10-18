@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Secular+One&display=swap');
+
+*
+{
+    color: #fff;
+}
+
+body
+{
+    background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-position: center;
+    background-size: cover;
+}
+
+.portfolio
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.portfolio__left
+{
+    width: 40%;
+    padding-left: 60px;
+    padding-top:70px;
+}
+
+.portfolio__right
+{
+    width: 60%;
+}
+
+.portfolio__name
+{
+    font-size: 60px;
+    color: #fff;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.quote
+{
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+ font-size: 70px;
+ font-family: 'Secular One', sans-serif;
+}
+
+.text__one
+{
+  font-size: large;   
+  font-family: 'Poppins', sans-serif;
+}
+
+.text__two
+{
+    font-size: 12px;
+    width: 300px;
+    color: rgb(158, 155, 155);
+}
+
+.portfolio__right
+{
+    /* Image Here */
+    background-image: url('./img/avatar.png');
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    filter: saturate(1.3);
+}
