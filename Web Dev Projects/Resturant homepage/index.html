@@ -1,0 +1,230 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scae=1.0">
+    <title>Restaurant Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;box-sizing: border-box;
+            
+        
+
+        }
+        body{
+             background: url(cc.jpg) no-repeat;
+             background-size: cover;
+             background-position:center;
+             
+             background-attachment: fixed;
+             font-family: sans-serif; 
+        }
+        .menu-bar
+        {
+            background: rgb(0,100,0);
+            text-align: center;
+            width:1500px;
+        }
+        .menu-bar ul{
+            display: inline-flex;
+            list-style:none;
+            color: #fff;
+        }
+        .menu-bar ul li{
+            width: 120px;
+            margin: 15px;
+            padding: 15px;
+        }
+        .menu-bar ul li a{
+            text-decoration:none;
+            color:#fff;
+        }
+        .active, .menu-bar ul li:hover{
+            background: #2bab0d;
+            border-radius: 3px;
+        }
+        .menu-bar .fa{
+            margin-right: 8px;
+        }
+        .sub-menu-1{
+            display: none;
+        }
+        .menu-bar ul li:hover .sub-menu-1{
+            display: block;
+            position:absolute;
+            background: rgb(0,100,0);
+            margin-top:15px;
+            margin-left: -15px;
+        }
+        .menu-bar ul li:hover .sub-menu-1 ul{
+            display:block;
+            margin:10px;
+        }
+        .menu-bar ul li:hover .sub-menu-1 ul li{
+            width:150px;
+            padding: 10px;
+            border-bottom:1px dotted #fff;
+            background:transparent;
+            border-radius:0;
+            text-align:left;
+        }
+        .menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+            border-bottom: none;
+        }
+        .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+            color: #b2ffb2;
+        }
+        #name{
+            width:1600px;
+            color:yellowgreen;
+            text-align:center;
+            text-decoration: none;
+            font-size: 90px;
+            text-shadow: 5px -10px 5px black;
+            
+            margin: 100px auto;
+            font-weight: bold;
+            font-family: 'Grechen Fuemen', cursive;
+            
+        }
+        #text{
+            width: 150px;
+            color:black;
+            margin: -5px auto;
+            font-style: italic;
+            text-indent: 600px;
+            position: relative;
+            bottom:110px;
+            font-size:20px;
+            font-weight:bold;
+            display:inline;
+        } 
+        .btn{
+            background-color: #2bab0d;
+            border:none;
+            color: :#fff;
+            padding:6px 32px;
+            text-align:center;
+            font-size:16px;
+            margin:4px 4px;
+            opacity:0.8;
+            transition:0.3s;
+            display:inline-block;
+            text-decoration:none;
+            cursor:pointer;
+        }
+        .btn:hover {opacity:1}   
+         marquee{
+             font-size: 50px;
+             font-family: 'Italianno', cursive;
+             font-weight:bolder;
+             color:rgb(10, 10, 10);
+             
+
+         }
+            
+
+        
+          
+            
+            
+        
+            
+            
+        
+            
+            
+            
+        
+        
+
+    </style>
+</head> 
+<body>
+    
+<div class="menu-bar"> 
+<ul> 
+<li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+<li><a href="#"><i class="fa fa-user"></i>About us</a>
+     <div class="sub-menu-1">
+         <ul>
+             <li><a href="#">Misson</a></li>
+             <li><a href="#">Vision</a></li>
+             <li><a href="#">Team</a></li>
+         </ul>
+     </div>
+</li>
+<li><a href="#"><i class="fa fa-cutlery"></i>Food items</a>
+     <div class="sub-menu-1">
+         <ul>
+             <li><a href="#">Vegetarian</a></li>
+             <li><a href="#">Eggetarian</a></li>
+             <li><a href="#">Non-vegetarian</a></li>
+         </ul>
+     </div>
+</li>
+<li><a href="#"><i class="fa fa-smile-o"></i>Special Dish</a>
+      <div class="sub-menu-1">
+          <ul>
+             <li><a href="#">Biryani special</a></li>
+             <li><a href="#">Desert special</a></li>
+             <li><a href="#">Beverges special</a></li>
+          </ul>
+     </div>
+</li>
+<li><a href="#"><i class="fa fa-truck"></i>Delivery</a>
+    <div class="sub-menu-1">
+        <ul>
+            <li><a href="#">Meal kites</a></li>
+            <li><a href="#">Grocery delivery</a></li>
+            <li><a href="#">Veggie box delivery</a></li>
+        </ul>
+    </div>
+</li>
+<li><a href="#"><i class="fa fa-inr"></i>Pricing</a>
+    <div class="sub-menu-1">
+        <ul>
+            <li><a href="#">Under 2k</a></li>
+            <li><a href="#">Between 2k-5k</a></li>
+            <li><a href="#">Above 5k</a></li>
+        </ul>
+    </div>
+</li>
+<li><a href="#"><i class="fa fa-phone"></i>Contact</a>
+    <div class="sub-menu-1">
+        <ul>
+            <li><a href="#">Whatsapp</a></li>
+            <li><a href="#">Telephone</a></li>
+            <li><a href="#">Email</a></li>
+        </ul>
+    </div>
+</li>    
+
+</div>
+
+    <marquee >WELCOME &#x1F49A</marquee>
+
+<div id="name">
+    <p>
+        THE PARADISE
+    </p>
+</div>
+<div id="text">
+    <p>
+        ~The complete Family Restaurant~
+    </p>
+</div> 
+
+
+    <button class="btn btn1">Book Your Table</button>
+    
+</body>   
+</html>
