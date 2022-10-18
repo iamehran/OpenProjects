@@ -1,0 +1,160 @@
+#include<stdio.h>
+int leap(int x)
+{
+	if(x%400==0)
+	return 1;
+	else if(x%4==0)
+	{
+		if(x%100==0)
+		return 0;
+		else
+		return 1;
+	}
+	else
+	return 0;
+}
+int month(int x,int year)
+{
+	if(x==1 || x==3 || x==5 || x==7 || x==8 || x==10 || x==12)
+	return 31;
+	else if(x==4 || x==6 || x==9 || x==11)
+	return 30;
+	else if(x==2)
+	{
+		if(leap(year)==1)
+		return 29;
+		else
+		return 28;
+	}
+}
+int main()
+{
+	int d1,m1,year1,d2,m2,year2,age=0,but=0;
+	scanf("%d%d%d",&d1,&m1,&year1);
+	printf("\nTo\n");
+	scanf("%d%d%d",&d2,&m2,&year2);
+	if(m1==1 || m1==3 || m1==5 || m1==7 || m1==8 || m1==10 || m1==12)
+	{
+		if(d1>31)
+		printf("Date is not valid\n %d month's date must be bounded between 1 to 31",m1);
+		else if(d2>31)
+		printf("Date is not valid\n %d month's date must be bounded between 1 to 31",m2);
+	}
+	else if(m1==4 || m1==6 || m1==9 || m1==11)
+	{
+		if(d1>30 || d2>30)
+		printf("Date is not valid\n %d month's date must be bounded between 1 to 30",m1);
+		else if(d2>30)
+		printf("Date is not valid\n %d month's date must be bounded between 1 to 31",m2);
+	}
+	else if(m1==2)
+	{
+		if(leap(year1)==1)
+		{
+			if(d1>29 || d2>29)
+			printf("Date is not valid\nCheak the fab. month date because fab. month's date must be bounded between 1 to 29 >>%d year is a leap year",year1);
+		}
+		else
+		{
+			if(d1>28 || d2>28)
+			printf("Date is not valid\nCheak the fab. month date because fab. month's date must be bounded between 1 to 28 >>%d year is not a leap year",year1);
+		}
+	}
+	else if(m2==2)
+	{
+		if(leap(year2)==1)
+		{
+			if(d1>29 || d2>29)
+			printf("Date is not valid\nCheak the fab. month date because fab. month's date must be bounded between 1 to 29 >>%d year is a leap year",year2);
+		}
+		else
+		{
+			if(d1>28 || d2>28)
+			printf("Date is not valid\nCheak the fab. month date because fab. month's date must be bounded between 1 to 28 >>%d year is not a leap year",year2);
+		}
+	}
+	else if(d1<1)
+	printf("Date is not valid\nDate is never negative or 0");
+	else
+	{
+		but=1;
+		printf("GOOD!!! \nAll Dates are valid\n");
+	}
+	if(m1>12 || m2>12)
+	{
+		if(but=1)
+		printf("but month is not valid\n");
+		else
+		printf("month is not valid\n");
+	}
+	if(year1 > year2)
+	printf("year should be in a right order\n");		
+	else if(year1==year2)
+	{
+		if(m1==m2)
+		{
+			printf("%d",d2-d1);
+		}
+		else
+		{
+			if(m1==1 || m1==3 || m1==5 || m1==7 || m1==8 || m1==10 || m1==12)
+			age=31-d1;
+			else if(m1==4 || m1==6 || m1==9 || m1==11)
+			age=30-d1;
+			else if(m1==2)
+			{
+				if(leap(year1)==1)
+				age=29-d1;
+				else
+				age=28-d1;
+			}
+			else
+			printf("A month never equals to %d",m1);
+			
+		//	printf("\n%d",age);
+			for(int q=m1+1;q<m2;q++)
+			{
+				age=age+month(q,year1);
+			}
+			age=age+d2;
+			printf("\n%d\n",age);
+		}
+	}
+	else
+	{
+	if(m1==1 || m1==3 || m1==5 || m1==7 || m1==8 || m1==10 || m1==12)
+	age=31-d1;
+	else if(m1==4 || m1==6 || m1==9 || m1==11)
+	age=30-d1;
+	else if(m1==2)
+	{
+		if(leap(year1)==1)
+		age=29-d1;
+		else
+		age=28-d1;
+	}
+	else
+	printf("A month never equals to %d",m1);
+//	printf("\n%d",age);
+	for(int q=m1+1;q<13;q++)
+	{
+		age=age+month(q,year1);
+	}
+//	printf("\n%d",age);
+	for(int w=year1+1;w<year2;w++)
+	{
+		if(leap(w)==1)
+		age=age+366;
+		else
+		age=age+365;
+	}
+//	printf("\n%d",age);
+	for(int e=m2-1;e>0;e--)
+	{
+		age=age+month(e,year2);
+	}
+//	printf("\n%d",age);
+	age=age+d2;
+	printf("\n%d days\n",age);
+}
+}
