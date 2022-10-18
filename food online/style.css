@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #242e4c;
+}
+
+.cover {
+    background: url('https://images.unsplash.com/photo-1562636714-d4683c37e832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.bg-orange {
+    background-color: #ff6144!important;
+}
+
+.vh-80 {
+    min-height: 84vh;
+}
+
+.sign__container {
+    width: 60%;
+}
+
+@media (min-width: 1200px) {
+    .sign__container {
+        width: 350px;
+    }
+    .subtitle-mb{
+        margin-bottom: 5.5rem!important;
+    }
+}
