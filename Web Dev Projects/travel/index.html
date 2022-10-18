@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SR Tours & Travels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- header section -->
+    <header>
+
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"><span>SR</span>Travel</a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+
+      <form class="search-bar-container" action="">
+        <input type="search" id="search-bar" placeholder="search here....">
+        <label for="search-bar"></label>
+      </form>
+
+    </header>
+
+<!-- header section ends -->
+
+<!-- login Form container  -->
+
+<div class="login-form-container">
+
+  <i class="fas fa-times" id="form-close"></i>
+  <form action="">
+    <h3>Login</h3>
+    <input type="email" class="box" placeholder="Enter Email">
+    <input type="password" class="box" placeholder="Enter Password">
+    <input type="submit" value="login now" class="btn">
+    <input type="checkbox" id="remember">
+    <label for="remember">remember me</label>
+    <p>forget Password?<a href="#">Click here</a></p>
+    <p>dont have account? <a href="#">register now</a></p>
+  </form>
+</div>
+
+<!-- home section starts -->
+<section class="home" id="home">
+  <div class="content">
+    <h3>Make The Most Out Of Your Holiday........</h3>
+    <p>Work, Travel, Save, Repeat</p>
+    <a href="#places" class="btn">discover more</a>
+  </div>
+
+  <div class="controls">
+    <span class="vid-btn active" data-src="images/vid-start.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-1.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+  </div>
+
+  <div class="video-container">
+    <video src="images/video-start.mp4" id="video-slider" loop autoplay muted></video>
+  </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts -->
+<section class="book" id="book">
+  <h1 class="heading">
+    <span>b</span>
+    <span>o</span>
+    <span>o</span>
+    <span>k</span>
+    <span class="space"></span>
+    <span>n</span>
+    <span>o</span>
+    <span>w</span>
+  </h1>
+
+  <div class="row">
+
+  <div class="image">
+    <img src="images/book.webp" alt="book">
+  </div>
+
+  <form action="">
+      <div class="inputBox">
+          <h3>where to</h3>
+          <input type="text" placeholder="place name">
+      </div>
+      <div class="inputBox">
+          <h3>how many</h3>
+          <input type="number" placeholder="number of guests">
+      </div>
+      <div class="inputBox">
+          <h3>arrivals</h3>
+          <input type="date">
+      </div>
+      <div class="inputBox">
+          <h3>leaving</h3>
+          <input type="date">
+      </div>
+      <input type="submit" class="btn" value="book now">
+  </form>
+
+  </div>
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts -->
+
+<section class="packages" id="packages">
+
+  <h1 class="heading">
+  <span>p</span>
+  <span>a</span>
+  <span>c</span>
+  <span>k</span>
+  <span>a</span>
+  <span>g</span>
+  <span>e</span>
+  <span>s</span>
+  </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+        <img src="images/taj.jpg" alt="">
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i> Agra </h3>
+            <p>city on the banks of the Yamuna river in the Indian state of Uttar Pradesh </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> $80.00 <span>$115.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/p-1.jpg" alt="">
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+            <p>arch monument built during the 20th century in Bombay, India </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> $90.00 <span>$120.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/hawaii.jpg" alt="">
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+            <p>Hawaii is best known for its beaches and water activities</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> $130.00 <span>$170.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+
+    <div class="box">
+        <img src="images/p-4.jpg" alt="">
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+            <p>popular travel destinations in the world thanks to its stunning architecture</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> $175.00 <span>$200.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/p-5.jpg" alt="">
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+            <p>famous for its numerous things to do and top attractions, including museums; festivals; cuisine and traditional Japanese pursuits</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> $210.00 <span>$270.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/p-6.jpg" alt="">
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i> egypt </h3>
+            <p>famous for its ancient civilization and some of the world's most famous monuments, including the Giza pyramids, the Great Sphinx and the temples of Luxor</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> $140.00 <span>$180.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Book hotels on your preference and pricing</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Exclusively tasty and amazing food with mocktails and cocktails</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>Our utmost priority is your safety. all your luggages and essentials will be taken special care of.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>point the finger in any place on your globe and you could fly there </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Our travels are comfortable, reliable, efficiant and fastest with all the basic facilities </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>its our guarantee that your experience would be exciting and full of adventures. </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- places to visit -->
+<section class="places" id="places">
+  <h1 class="heading">
+      <span>#</span>
+      <span>1</span>
+      <span>0</span>
+      <span class="space"></span>
+      <span>s</span>
+      <span>i</span>
+      <span>t</span>
+      <span>e</span>
+      <span>s</span>
+  </h1>
+
+  <div class="swiper-container places-slider">
+
+      <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/south-island.jpg" alt="">
+                  <h3>South Island, New Zealand</h3>
+                  <p>New Zealand's South Island brims with majestic landscapes at every turn, from dramatic mountains to fjords to glaciers. Here, you can admire the mountains of Fiordland National Park
+                  You can also explore two of the most accessible glaciers in the world on the island's west coast.</p>
+              </div>
+          </div>
+
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/paris.jpg" alt="">
+                  <h3>Paris</h3>
+                  <p>The magnetic City of Light draws visitors from around the globe who come to see iconic attractions like the Eiffel Tower, the Louvre and the Arc de Triomphe. But what travelers really fall in love with are the city's quaint cafes, vibrant markets & trendy shopping districts</p>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/bora.jpg" alt="">
+                  <h3>Bora Bora</h3>
+                  <p>Here, you'll find picturesque beaches, lush jungles and luxurious resorts. The island's dormant volcano, Mount Otemanu, makes for a great photo-op or challenging hike, and the friendly Bora Bora locals can help you catch a glimpse of the island's best sights during an off-road excursion.</p>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/maui.jpg" alt="">
+                  <h3>Maui</h3>
+                  <p>Whether you're driving along the Road to Hana, enjoying a bird's-eye view of the lush coastline from a helicopter, snorkeling with sea turtles or simply relaxing on the Hawaiian island's honey- or black-colored beaches, you'll find that Maui is unlike any other tropical destination</p>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/tokyo.jpg" alt="">
+                  <h3>Tokyo</h3>
+                  <p>Simply setting foot in Japan's cosmopolitan capital is an experience within itself. A city known for its bustling streets and flashing neon signs, Tokyo has an electric energy and plenty of attractions to discover. Foodies won't be let down by the city's fresh sushi and hearty ramen</p>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/barcelona.jpg" alt="">
+                  <h3>Barcelona</h3>
+                  <p>This Spanish city is a feast for the eyes: Visitors can walk past medieval architecture in the Barri Gòtic, snap photos of the intricate Basilica de la Sagrada Família and marvel at Antoni Gaudí's whimsical creations in Park Güell.</p>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/tahiti.jpg" alt="">
+                  <h3>Tahiti</h3>
+                  <p>Travel to this island – the largest in French Polynesia – if you've been dreaming of a vacation spent lazing in a lavish overwater bungalow. Beyond the posh resorts, Tahiti boasts black sand beaches, a bustling capital and prime snorkeling and surfing conditions.</p>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/maldives.jpg" alt="">
+                  <h3>Maldives</h3>
+                  <p>It is not cheap or easy to reach, but this isolated paradise between the Arabian and Laccadive seas is the personification of a dreamy tropical vacation. In this South Asian destination, which is made up of more than 1,000 islands, thatched-roof bungalows sit above crystal-clear aquamarine waters, providing easy water access and a romantic atmosphere.</p>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/bali.jpg" alt="">
+                  <h3>Bali</h3>
+                  <p>Serene temples and beautiful beaches are the biggest draws to this lush Indonesian paradise. Break up your beach time with a visit to the village of Kintamani, home to a towering (and active) volcano, as well as a large lake.</p>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="images/dubai.jpg" alt="">
+                  <h3>Dubai</h3>
+                  <p>Stunning Persian Gulf views, heart-pumping activities and historical landmarks await you in Dubai. This Middle Eastern city is filled with some of the world's most notable and unique attractions, including the Burj Khalifa, the Dubai Mall and indoor Ski Dubai.</p>
+              </div>
+          </div>
+
+      </div>
+
+  </div>
+</section>
+<!-- places to visit ends -->
+
+<!-- gallery section starts -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/a.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/b.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/c.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/d.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/e.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/h.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/i.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts -->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>We offer best airfares, special discounts and a seamless   online    ticket booking experience.</p>
+        </div>
+        <div class="box">
+            <h3>branch location</h3>
+            <a href="#">india</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow me</h3>
+            <a href="https://www.facebook.com/subham.rath.750">facebook</a>
+            <a href="https://www.instagram.com/cyber_worrier_">instagram</a>
+            <a href="">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Subham Rath </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- custom js file -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src= "js/script.js"> </script>
+
+  </body>
+</html>
