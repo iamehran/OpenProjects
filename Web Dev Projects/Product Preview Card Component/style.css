@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.container{
+    display: flex;
+        margin: 20% auto;    
+        margin-left: 30%;
+    ;
+    }
+    
+
+img{
+    width: 300px;
+    height: 50vh;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+}
+.product{
+    width: 300px;
+    height: 50vh;
+    background-color: hsl(0, 0%, 100%);
+border-radius: 10px;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+
+}
+
+
+h6{
+    margin: 15px 30px;
+    word-spacing: 2px;
+    font-size: small;
+    color: hsl(228, 12%, 48%);
+    
+
+}
+h1{
+    margin: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+p{
+    margin: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight:normal;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(228, 12%, 48%);
+    
+}
+
+.rate{
+    display: flex;
+    margin-bottom: 1%;
+    color: hsl(158, 36%, 37%);
+
+}
+
+.norate{
+    margin-top: 12%;
+    margin-right: 10%;
+    text-decoration: line-through;
+    color: black;
+}
+
+button{
+    display: flex;
+    margin: -5px 16%;
+    background-color: hsl(158, 36%, 37%);
+    width: 180px;
+    height: 35px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+}
+.button img{
+    width: 15px;
+    height: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+
+}
+button p{
+    margin-top: 5px;
+    margin-left: 18px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
