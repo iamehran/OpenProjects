@@ -1,0 +1,63 @@
+*{
+    margin: 0rem;
+}
+body{
+    margin: 0 0;
+    padding: 0;
+}
+.hero-bg{
+    background-image: linear-gradient(to right, #00FF6C,#00FFCC);
+    height: 100vh;
+}
+/* 
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+} */
+
+background-color: rgba(216, 122, 0, 0.4);
+border-radius: 18px;
+
+<img src="https://img.icons8.com/sf-black/64/000000/search.png" alt="search"/>
+
+header{
+    justify-content: space-around;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.right-section{
+    display: flex;
+    justify-items: right;
+}
+.left-section{
+    flex-direction: row;
+}
+.left-section ul{
+    display: flex;
+    align-items: center;
+}
+.left-section ul li {
+    padding-right: 2em;
+    list-style: none;
+    
+}
+
+.left-section ul li a{
+    padding-right: 2em;
+    text-decoration: none;
+    color: white;
+    font-size: .7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
