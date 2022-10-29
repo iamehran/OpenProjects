@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="./script.js"></script>
+    <title>Movie Search App</title>
+</head>
+
+<body class="bg-black h-screen">
+    <header>
+        <div class="flex flex-row justify-between bg-pink-500 items-center text-white py-2">
+            <div class="text-4xl font-extrabold ml-4">Tv Shows</div>
+            <div class="flex flex-row justify-around text-2xl space-x-5 mr-4 font-semibold">
+                <a href="index.html">
+                    <div class="hover:cursor-pointer">Home</div>
+                </a>
+                <a href="fav.html">
+                    <div class="hover:cursor-pointer">Favourites</div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="is-detail" class="flex flex-col justify-center mt-24 items-center">
+        <input id="main-search" type="text" placeholder="Example: Superman" class="rounded-full bg-blue-400 h-14 w-1/2 border-yellow-500 border-4 placeholder:text-white text-white
+            text-center active:border-yellow-600 outline-none" />
+
+        <div id="cards" class="flex flex-col space-y-4 mt-4 mb-4">
+
+        </div>
+    </div>
+    <div id="detail">
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Movie Search App</title>
+    <script defer src="./script.js"></script>
+</head>
+
+<body class="bg-black h-screen">
+    <header>
+        <div class="flex flex-row justify-between bg-pink-500 items-center text-white py-2">
+            <div class="text-4xl font-extrabold ml-4">Tv Shows</div>
+            <div class="flex flex-row justify-around text-2xl space-x-5 mr-4 font-semibold">
+                <a href="index.html">
+                    <div class="hover:cursor-pointer">Home</div>
+                </a>
+                <a href="fav.html">
+                    <div class="hover:cursor-pointer">Favourites</div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="fav" class="flex justify-center space-x-5 mt-24 items-center">
+
+    </div>
+    <div id="fav-detail">
+
+    </div>
+
+    <script defer>
+        window.addEventListener('load', () => {
+            console.log('loaded');
+            for (let i = 0; i < localStorage.length; i++) {
+                let key = localStorage.key(i);
+                const d = localStorage.getItem(key);
+                document.getElementById('fav').innerHTML += d;
+            }
+        })
+    </script>
+
+
+
+</body>
+
+</html>
