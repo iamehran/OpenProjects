@@ -16,7 +16,7 @@ Hacktoberfest is a month-long celebration of open source projects, their maintai
 
 # 🌄How can you contribute?
 ### 1. Register for Hacktoberfest
-###### https://hacktoberfest.digitalocean.com/
+[Click me](https://hacktoberfest.digitalocean.com/)
 
 ### 2. Add a Program in any Language you like:
 Add any Simple or Complex Program in any language you Like in specific folders in this Repository by clicking "Add File -> Create new File".
