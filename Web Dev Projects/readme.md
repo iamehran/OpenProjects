@@ -1,4 +1,4 @@
-<img align = "centre" src = "https://hacktoberfest.com/_next/static/media/logo-hacktoberfest--logomark.b91c17d2.svg?raw=true">
+<img src = "https://hacktoberfest.com/_next/static/media/logo-hacktoberfest--logomark.b91c17d2.svg?raw=true">
 
 # Web Dev Contributions
 **Here you can put your web dev projects**
