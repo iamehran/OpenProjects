@@ -1,3 +1,4 @@
+# Password breaker and password generator
 import random
 import time
 ch = "abcdefghijklmnopqurstuvwxyz1234567890!@#$%^&*()--+=AVCDEFGHIJKLMNOPQRSTUVWXYZ"
